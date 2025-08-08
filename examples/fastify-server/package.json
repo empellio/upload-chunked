@@ -1,0 +1,12 @@
+
+{
+  "name": "example-fastify-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}

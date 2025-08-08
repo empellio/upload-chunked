@@ -1,0 +1,12 @@
+{
+  "name": "example-koa-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "koa": "^2.15.3",
+    "@koa/router": "^12.0.0"
+  }
+}

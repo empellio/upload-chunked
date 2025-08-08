@@ -1,0 +1,6 @@
+export { createUploadHandler } from './handler'
+export type { StorageAdapter, UploadHandlerOptions } from './types'
+export { LocalStorageAdapter } from './adapters/local'
+export { S3StorageAdapter } from './adapters/s3'
+export { GCSStorageAdapter } from './adapters/gcs'
+export { AzureBlobStorageAdapter } from './adapters/azure'
